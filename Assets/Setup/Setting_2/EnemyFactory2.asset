@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5ab83c4e94653498c82c1e57360e49, type: 3}
+  m_Name: EnemyFactory2
+  m_EditorClassIdentifier: 
+  _scene:
+    m_Handle: -546934
+  _small:
+    Prefab: {fileID: 2203585314453523792, guid: 635a5db38f0315d448a003aee062e54f, type: 3}
+    PathOffset:
+      _min: 0.5
+      _max: 0.5
+    Speed:
+      _min: 0.75
+      _max: 0.75
+    Health:
+      _min: 150
+      _max: 150
+    Damage:
+      _min: 30
+      _max: 30
+    AttackRate:
+      _min: 2
+      _max: 2
+  _medium:
+    Prefab: {fileID: 5873161044178857435, guid: d2c6d2795d41700449e8f460329c9d1b, type: 3}
+    PathOffset:
+      _min: 0.5
+      _max: 0.5
+    Speed:
+      _min: 0.6
+      _max: 0.6
+    Health:
+      _min: 300
+      _max: 300
+    Damage:
+      _min: 30
+      _max: 30
+    AttackRate:
+      _min: 2
+      _max: 2
+  _large:
+    Prefab: {fileID: 3239791767847132423, guid: 1bb4b2b435e560d4aaac07e03f7447ae, type: 3}
+    PathOffset:
+      _min: 0.5
+      _max: 0.5
+    Speed:
+      _min: 0.5
+      _max: 0.5
+    Health:
+      _min: 600
+      _max: 600
+    Damage:
+      _min: 30
+      _max: 30
+    AttackRate:
+      _min: 2
+      _max: 2
+  _daughter:
+    Prefab: {fileID: 8112462450982518329, guid: 72ce592e4cababb42802268c8fab4b8a, type: 3}
+  _fermer:
+    Prefab: {fileID: 4242632983405451086, guid: 511d3531913ba2b438e759776a6da1cc, type: 3}
+  _fermerR:
+    Prefab: {fileID: 2959781097612471995, guid: 7acd5394dbb3eba4aa09b4dc3b10652f, type: 3}
+  _villager:
+    Prefab: {fileID: 1062783796936305424, guid: e3ec513c13d51ee46969fb630acc1589, type: 3}
+  _villagerR:
+    Prefab: {fileID: 7704698762405851160, guid: 979c4ea80e00b894c85214b2cef0742b, type: 3}
+  _sheriff:
+    Prefab: {fileID: 490378320356527313, guid: dfcd963a6241eac4a858736742815e64, type: 3}

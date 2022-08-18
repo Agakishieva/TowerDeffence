@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba3b67450e320ff45a97eb7ea6d3f88c, type: 3}
+  m_Name: ContentFactory
+  m_EditorClassIdentifier: 
+  _scene:
+    m_Handle: -120096
+  _destinationPrefab: {fileID: -6817253072131796215, guid: 58777d3872ac71848897f7de23738c23, type: 3}
+  _emptyPrefab: {fileID: 797398536405838063, guid: a80ce463716851a488a1ad37cd74bede, type: 3}
+  _wallPrefab: {fileID: 2504882047238918717, guid: 7192c87cad44fcd4e8392f95a4e2f73a, type: 3}
+  _spawnPrefab: {fileID: 6709973574598495784, guid: e70f24c7ed54b8645bcfbe0575d6081d, type: 3}
+  _bush: {fileID: 2504882047238918717, guid: 355b991b67f91c8488808b1563f7a63c, type: 3}
+  _fence: {fileID: 2504882047238918717, guid: 9e2751c3816223c41b9e1383bc65ebb6, type: 3}
+  _fence1: {fileID: 2504882047238918717, guid: 26dd350acdc05e947b7d1996f853c4e9, type: 3}
+  _fence2: {fileID: 2504882047238918717, guid: 060cc704ba1571a41826e22edb5b267a, type: 3}
+  _fence3: {fileID: 2504882047238918717, guid: 60599d51f8bef574db2be32f0f8b81d2, type: 3}
+  _fence4: {fileID: 2504882047238918717, guid: 31379ddc4d27ab143b25723a28006d03, type: 3}
+  _fence5: {fileID: 2504882047238918717, guid: e29b6fbd94e04424eae5a50e14707250, type: 3}
+  _fence6: {fileID: 2504882047238918717, guid: 7c38fad7c20b18e47ba5ba28777c638b, type: 3}
+  _waterTower: {fileID: 2504882047238918717, guid: 12332c94584b83940ab16aa66e50209c, type: 3}
+  _car: {fileID: 4969026841273951414, guid: 47a037cae6b4d46ff9123f149978bd22, type: 3}
+  _laserTower: {fileID: -6222827253856581536, guid: 93853aeae33896f448b2b4b93a1c2579, type: 3}
+  _GunnarTower: {fileID: -6222827253856581536, guid: 93853aeae33896f448b2b4b93a1c2579, type: 3}
+  _mortarTower: {fileID: 344937796968673786, guid: 4e28c504225e9134ebecb71736746da3, type: 3}
